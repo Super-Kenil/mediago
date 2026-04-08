@@ -1,0 +1,4 @@
+File PNG,video,GIF mate aa command Install kariyo che 
+npm install @ffmpeg/ffmpeg @ffmpeg/util @ffmpeg/core
+
+npm install fluent-ffmpeg @types/fluent-ffmpeg

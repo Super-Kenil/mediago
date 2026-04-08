@@ -56,7 +56,7 @@ export function useFFmpeg() {
         const ffmpeg = ffmpegRef.current;
         if (!ffmpeg || !isLoaded) throw new Error("FFmpeg is not loaded");
 
-        const inputName = `input.webp`;
+        const inputName = `input_${file.name}`;
         const tempVideo = `temp.mp4`;
         const outputName = `output.gif`;
 
